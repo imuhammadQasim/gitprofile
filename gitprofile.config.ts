@@ -47,10 +47,11 @@ const CONFIG = {
   social: {
     linkedin: 'imuhammadqasim', // Update with your actual LinkedIn ID
     website: 'https://imuhammadqasim.github.io/gitprofile',
-    email: 'contact@yourdomain.com', // Update with your actual email
+    email: 'mq80140@gmail.com', // Update with your actual email
     facebook: '',
-    instagram: '',
+    instagram: 'mianqasim726',
     x: '',
+    linkkedin: 'isoftwaredeveloper',
     medium: '',
     dev: '',
   },
