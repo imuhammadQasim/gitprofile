@@ -2,228 +2,127 @@
 
 const CONFIG = {
   github: {
-    username: 'imuhammadQasim', // Your GitHub org/user name. (This is the only required config)
+    username: 'imuhammadQasim', // Your GitHub username
   },
-  /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
-   * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
-   */
   base: '/gitprofile/',
   projects: {
     github: {
-      display: true, // Display GitHub projects?
-      header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      display: true, 
+      header: 'Technical Repositories',
+      mode: 'automatic', 
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        sortBy: 'stars', 
+        limit: 8, 
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          forks: true, 
+          projects: [], 
         },
-      },
-      manual: {
-        // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
-      header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
+      header: 'Featured Business Projects',
       projects: [
         {
           title: 'AUSTIN DAVID APARTMENTS',
           description:
-            'Austin David Apartment a rental website for the apratment for the UK based comapny. where tokeet and Global payment intergation are implmented and price labs for the dynamic pricing of the rentals.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            'A premium rental platform for a UK-based company. Implemented Tokeet and Global Payment integrations with Price Labs for AI-driven dynamic pricing.',
+          imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://austindavidapartments.co.uk/',
         },
         {
-          title: 'Project Name',
+          title: 'Zync Logic Automation Hub',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'A custom-built ecosystem using Gemini API and Make.com to automate business lead generation and client outreach workflows.',
+          imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://imuhammadqasim.github.io/gitprofile',
         },
       ],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+  seo: { 
+    title: 'Portfolio of Muhammad | CEO & Automation Expert', 
+    description: 'Expert in AI integrations, Web Development, and Business Automation.', 
+    imageURL: '' 
+  },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
+    linkedin: 'imuhammadqasim', // Update with your actual LinkedIn ID
+    website: 'https://imuhammadqasim.github.io/gitprofile',
+    email: 'contact@yourdomain.com', // Update with your actual email
     facebook: '',
     instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '', // example: 'pewdiepie'
-    udemy: '',
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    discord: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: '',
+    x: '',
+    medium: '',
+    dev: '',
   },
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '', // Add a link to your resume PDF here later
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
+    'AI & Gemini API',
+    'Automation (Make.com/Zapier)',
+    'Shopify & eCommerce',
+    'WordPress & Wix',
+    'Python',
     'React.js',
+    'Tailwind CSS',
+    'PHP / Laravel',
+    'Technical SEO',
+    'Stripe & Payment Integration',
     'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Zync Logic',
+      position: 'CEO & Founder',
+      from: 'January 2024',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://imuhammadqasim.github.io/gitprofile',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Independent Freelance',
+      position: 'Full-Stack Developer',
+      from: '2021',
+      to: '2023',
+      companyLink: '',
     },
   ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
+  certifications: [],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Your University Name',
+      degree: 'Bachelor of Computer Science',
+      from: '2019',
+      to: '2023',
     },
   ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-  ],
-  // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    source: 'dev', 
+    username: '', // Kept empty to hide blog until you have posts
+    limit: 2, 
   },
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: '', 
   },
-  // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
-    defaultTheme: 'lofi',
-
-    // Hides the switch in the navbar
-    // Useful if you want to support a single color mode
+    defaultTheme: 'corporate', // Professional "Make.com" style
     disableSwitch: false,
-
-    // Should use the prefers-color-scheme media-query,
-    // using user system preferences, instead of the hardcoded defaultTheme
-    respectPrefersColorScheme: false,
-
-    // Display the ring in Profile picture
+    respectPrefersColorScheme: true,
     displayAvatarRing: true,
-
-    // Available themes. To remove any theme, exclude from here.
     themes: [
       'light',
       'dark',
-      'cupcake',
-      'bumblebee',
-      'emerald',
       'corporate',
-      'synthwave',
-      'retro',
-      'cyberpunk',
-      'valentine',
-      'halloween',
-      'garden',
-      'forest',
-      'aqua',
-      'lofi',
-      'pastel',
-      'fantasy',
-      'wireframe',
-      'black',
-      'luxury',
-      'dracula',
-      'cmyk',
-      'autumn',
       'business',
-      'acid',
-      'lemonade',
-      'night',
-      'coffee',
+      'luxury',
+      'lofi',
+      'dracula',
       'winter',
-      'dim',
-      'nord',
-      'sunset',
-      'caramellatte',
-      'abyss',
-      'silk',
-      'procyon',
     ],
   },
 
-  // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: `Made with <a class="text-primary" href="https://github.com/arifszn/gitprofile" target="_blank" rel="noreferrer">GitProfile</a> and ❤️`,
 
   enablePWA: true,
 };
