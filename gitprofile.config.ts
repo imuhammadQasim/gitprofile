@@ -33,12 +33,12 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'AUSTIN DAVID APARTMENTS',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Austin David Apartment a rental website for the apratment for the UK based comapny. where tokeet and Global payment intergation are implmented and price labs for the dynamic pricing of the rentals.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://austindavidapartments.co.uk/',
         },
         {
           title: 'Project Name',
