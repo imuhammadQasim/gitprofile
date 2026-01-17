@@ -22,7 +22,7 @@ const CONFIG = {
         {
           title: 'Austin David Apartments',
           description:
-            'A premium rental platform for a UK-based company. Integrated Tokeet, Airbnb, and Price Labs using a Node.js monolith architecture deployed on AWS. Highly optimized for scalability.',
+            'A premium rental platform for a UK-based company. Integrated Tokeet, Airbnb, and Price Labs using a Node.js monolith architecture deployed on AWS.',
           imageUrl: 'https://www.austindavidapartments.co.uk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstories7.b3646955.webp&w=384&q=75',
           link: 'https://austindavidapartments.co.uk/',
         },
@@ -31,21 +31,21 @@ const CONFIG = {
           description:
             'Engineered a robust backend MVP using Node.js and PostgreSQL/PostGIS to handle real-time ride requests and scalable driver-matching logic.',
           imageUrl: 'https://cdn.prod.website-files.com/643e15786c3c1ff52f75bd0d/677eb83ebf8f38ef9cdd6ec8_652436df54c346949e6836b2_Ride%2520hailing%2520Version%25202.webp',
-          link: 'https://github.com/imuhammadQasim', 
+          link: 'https://github.com/imuhammadQasim/swiftride', 
         },
         {
           title: 'Madrasa.io',
           description:
             'A comprehensive MERN stack educational platform scaling to 2,000+ active users. Features dynamic dashboards and complex resource management.',
-          imageUrl: 'https://img.freepik.com/free-vector/online-education-concept-illustration_114360-1250.jpg',
-          link: '#', 
+          imageUrl: 'https://madrasa.io/static/media/muslimMan.9577d84057964fb54a7a.webp',
+          link: 'https://madrasa.io/', 
         },
       ],
     },
   },
   seo: { 
-    title: 'Muhammad Qasim Khalid | Full-Stack Software Engineer', 
-    description: 'Expert in MERN Stack, Payment Gateways (Stripe/Global), and Scalable Backend Systems.', 
+    title: 'Muhammad Qasim Khalid | Software Engineer', 
+    description: 'Expert in MERN Stack, Payment Gateways, and Scalable Backend Systems.', 
     imageURL: '' 
   },
   social: {
@@ -56,19 +56,11 @@ const CONFIG = {
     phone: '+92 3240682963',
   },
   resume: {
-    fileUrl: '', // Upload your PDF to GitHub and paste the link here
+    fileUrl: '', 
   },
   skills: [
-    'MERN Stack (MongoDB, Express, React, Node.js)',
-    'PostgreSQL & PostGIS (Geospatial Data)',
-    'Payment Gateways (Stripe, Global Payment, Tokeet)',
-    'AWS & Cloud Deployment (EC2, S3)',
-    'TypeScript & JavaScript (ES6+)',
-    'Real-time Web (Socket.io & Webhooks)',
-    'System Design & OOPs',
-    'Technical SEO & Performance Optimization',
-    'Redis & Caching',
-    'Tailwind CSS & Bootstrap',
+    'MERN Stack', 'PostgreSQL', 'PostGIS', 'Stripe', 'Global Payment', 'AWS (EC2/S3)', 
+    'TypeScript', 'Socket.io', 'Webhooks', 'JWT', 'System Design', 'Tailwind CSS'
   ],
   experiences: [
     {
@@ -86,35 +78,38 @@ const CONFIG = {
       companyLink: '',
     },
   ],
-  certifications: [
-    {
-      name: 'MERN Stack Specialization',
-      body: 'Advanced Web Development and Backend Systems',
-      year: '2024',
-      link: '',
-    },
-  ],
   educations: [
     {
       institution: 'University of the Punjab',
-      degree: 'BS in Information Technology (CGIS) - GPA: 3.80/4.00',
+      degree: 'BS in IT (CGIS) - GPA: 3.80/4.00',
       from: '2022',
       to: '2026',
     },
   ],
-  blog: {
-    source: 'dev', 
-    username: '', 
-    limit: 2, 
+  googleAnalytics: {
+    id: '', 
+  },
+  hotjar: {
+    id: '', 
+    snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'corporate', 
-    disableSwitch: false,
-    respectPrefersColorScheme: true,
+    defaultTheme: 'luxury', // Beautiful Black & Gold Premium theme
+    disableSwitch: false, 
+    respectPrefersColorScheme: false,
     displayAvatarRing: true,
-    themes: ['light', 'dark', 'corporate', 'business', 'winter'],
+    themes: [
+      'luxury',
+      'night',
+      'cupcake',
+      'retro',
+      'aqua',
+      'sunset',
+      'cyberpunk',
+      'business',
+    ],
   },
-  footer: `© ${new Date().getFullYear()} Muhammad Qasim Khalid`,
+  footer: `Built with ❤️ by Muhammad Qasim Khalid`,
   enablePWA: true,
 };
 
